@@ -1,0 +1,82 @@
+Lesson1Reflections
+
+File compare tools
+
+Windows - FC File compare
+
+C:\Users\darsch\Downloads>fc game_old.js game_new.js
+
+Mac or Linux - Diff (difference)
+
+$ diff -u game_new.js game_old.js
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It would help me created copies of content for my UW course and improve it overtime
+
+GIT Linus Torvold in 2005 (git is british slang for unpleasent person)
+like CVS and SVN an Mercurial
+
+Version Control in git has the concept of Commit
+
+git is a type of version control
+
+Commit is part of git
+
+diff operates on commit
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Cons some lost before you commit it 
+Pros you only get the stuff saved that you want to save
+
+With git you can source control files that interact together
+
+A collection of file is called a repository
+
+commit is a snapshot of all the file in the repository
+
+press q to stop seeing output
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+git is written for coding in mind while other control independant documents
+
+git --version
+git clone https://github.com/udacity/asteroids.git
+git clone https://github.com/darsch/CLDDATA-Analytics
+git clone https://github.com/GoogleCloudPlatform/DataflowJavaSDK
+
+git log
+git diff 3e42136a76cf78c6c421cd720427bf6337c2d623 4035769377cce96a88d5
+9e12f30492391
+git config --global color.ui auto //this gives you color output of red and green
+
+How can you use the commands git log and git diff to view the history of files?  Use git log to get a list of commits and git diff to compare the difference between them
+
+See VersionControl.jpg
+
+git checkout 3e42136a76cf78c6c421cd720427bf6337c2d623 // to checkout an old commit
+
+How might using version control make you more confident to make changes that could break something? version control keeps track of the working version so I can do experimentation without worrying about breaking the working code
+
+Verion control allows more risk taking and exploration
+
+cd ~ // to get to home dir
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Keep track of my learnings for this course
+
+ls -a  // allows you to see hidden files like .git
+
+git init //intitializes a git repository
+
+What happens when you initialize a repository? Why do you need to do it?  A .git file is added so that you can start tracking files
+
+git status //to see status
+
+Working Directory --> Staging Area  --> repository
+
+git add VersionControl.JPG // to add files to staging area
+
